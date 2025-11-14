@@ -65,7 +65,7 @@ root/
 │    └── (scripts Foundry pour déployer)
 │
 └── documentation/
-     └── (documentation + whitepaper + utilisation du token)
+     └── (documentation + utilisation du token)
 ```
 
 ## Smart Contract
