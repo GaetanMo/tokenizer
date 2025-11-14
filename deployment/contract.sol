@@ -10,7 +10,6 @@ contract Token42 is ERC20Pausable, Ownable {
         _mint(msg.sender, initialSupply * 10 ** decimals()); // tranfert from 0x0000.. to adress of owner
     }
 
-    // only owner can mint if token is not paused
     function mint(address to, uint256 amount) external onlyOwner {
         require(!paused(), "Token is paused");
         _mint(to, amount);
